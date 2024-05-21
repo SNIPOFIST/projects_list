@@ -26,7 +26,7 @@ with col_2:
     st.write("")
     st.header(" _:orange[My Portfolio]_")
     st.markdown('_:orange[My Portfolio]_ [Click me](https://hariram-portfolio.streamlit.app/) ',unsafe_allow_html = True) 
-    st.subheader(" _:orange[Certifications]_")
+    st.subheader("#_:orange[Certifications]_")
     st.markdown('[Click me](https://hariramcertifications.streamlit.app/) ',unsafe_allow_html = True) 
     
         
