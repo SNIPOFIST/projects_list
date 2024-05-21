@@ -17,12 +17,15 @@ st.set_page_config(
     layout='wide')
 #----------------------------------------------#
 # A dd a title for the page
-col_1, col_2 = st.columns(2)
+col_1, col_2, col_3 = st.columns(3)
 with col_1:
     st.title(":orange[List of Projects]")
 
-
 with col_2:
+    pass 
+
+
+with col_3:
     st.write("")
     st.header(" _:orange[My Portfolio]_")
     st.markdown('[Click me](https://hariram-portfolio.streamlit.app/) ',unsafe_allow_html = True) 
