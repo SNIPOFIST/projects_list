@@ -24,8 +24,10 @@ with col_1:
 
 with col_2:
     st.write("")
-    st.header(" _:orange[My Web Portfolio]_")
+    st.header(" _:orange[My Portfolio]_")
     st.markdown('[Click me](https://hariram-portfolio.streamlit.app/) ',unsafe_allow_html = True) 
+    st.sub_header(" _:orange[Certifications]_")
+    st.markdown('[Click me](https://hariramcertifications.streamlit.app/) ',unsafe_allow_html = True) 
     
         
 
